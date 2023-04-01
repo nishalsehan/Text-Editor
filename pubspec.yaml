@@ -1,0 +1,220 @@
+name: text_editor
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_quill: ^7.0.4
+  flutter_svg: ^2.0.4
+  quill_json_to_html: ^1.0.1
+  markdown: ^7.0.2
+  html2md: ^1.2.6
+  quill_markdown: ^0.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/.env
+    - assets/i18n/
+    - assets/lottie/loading.json
+    - assets/lottie/no_connection.json
+    - assets/lottie/chat_loading.json
+    - assets/images/logo.svg
+    - assets/images/app_icon.png
+    - assets/images/splash_bg_01.svg
+    - assets/images/splash_bg_02.svg
+    - assets/images/usa_flag.svg
+    - assets/images/japanese_flag.svg
+    - assets/images/ws_step01_bg.svg
+    - assets/images/ws_step02_bg.png
+    - assets/images/ws_step03_bg.svg
+    - assets/images/ws_common_bg.svg
+    - assets/images/workspace_logo.png
+    - assets/images/empty_timeline.svg
+    - assets/images/empty_bookmarks.svg
+    - assets/images/no_image.svg
+    - assets/icons/close-square.svg
+    - assets/icons/arrow-down.svg
+    - assets/icons/more.svg
+    - assets/icons/like.svg
+    - assets/icons/liked.svg
+    - assets/icons/arrow_left.svg
+    - assets/icons/send_2.svg
+    - assets/icons/save.svg
+    - assets/icons/save-filled.svg
+    - assets/icons/comment.svg
+    - assets/icons/profile_user.svg
+    - assets/icons/close-circle.svg
+    - assets/icons/google.svg
+    - assets/icons/add.svg
+    - assets/icons/trash.svg
+    - assets/icons/edit_2.svg
+    - assets/icons/active.svg
+    - assets/icons/arrow_down.svg
+    - assets/icons/search.svg
+    - assets/icons/more_circle.svg
+    - assets/icons/double_zeros.svg
+    - assets/icons/zero_01.svg
+    - assets/icons/zero_02.svg
+    - assets/icons/add_square.svg
+    - assets/icons/info_circle.svg
+    - assets/icons/group_chat.svg
+    - assets/icons/private_chat.svg
+    - assets/icons/profile_user_2.svg
+    - assets/icons/tick_circle.svg
+    - assets/icons/profile_add.svg
+    - assets/icons/setting_2.svg
+    - assets/icons/check_off.svg
+    - assets/icons/check_on.svg
+    - assets/icons/radio_on.svg
+    - assets/icons/radio_off.svg
+    - assets/icons/user_add.svg
+    - assets/icons/avatar_single.svg
+    - assets/icons/private_group_message.svg
+    - assets/icons/cake.svg
+    - assets/icons/call.svg
+    - assets/icons/call.svg
+    - assets/icons/sms.svg
+    - assets/icons/blur.svg
+    - assets/icons/user.svg
+    - assets/icons/global.svg
+    - assets/icons/clipboard-tick.svg
+    - assets/icons/document-forward.svg
+    - assets/icons/document-text.svg
+    - assets/icons/flag.svg
+    - assets/icons/calendar.svg
+    - assets/icons/eye.png
+    - assets/icons/search-normal.svg
+    - assets/icons/global-filled.svg
+    - assets/icons/folder-add.svg
+    - assets/icons/edit.svg
+    - assets/icons/eye-outline.svg
+    - assets/icons/close-square-2.svg
+    - assets/icons/close-circle-outline.svg
+    - assets/icons/document-download.svg
+    - assets/icons/profile.svg
+    - assets/icons/notification.svg
+    - assets/icons/receipt-edit.svg
+    - assets/icons/lock.svg
+    - assets/icons/message-question.svg
+    - assets/icons/logout.svg
+    - assets/icons/blur-filled.svg
+    - assets/icons/timer.svg
+    - assets/icons/clock.svg
+    - assets/icons/lamp-charge.svg
+    - assets/icons/setting-5.svg
+    - assets/icons/export.svg
+    - assets/icons/buliding.svg
+    - assets/icons/people.svg
+    - assets/icons/filter.svg
+    - assets/icons/lock-slash.svg
+    - assets/icons/lock-filled.svg
+    - assets/icons/eye-slash.svg
+    - assets/icons/buliding-filled.svg
+    - assets/icons/note.svg
+    - assets/icons/calendar-outline.svg
+    - assets/icons/more-horizontal.svg
+    - assets/icons/profile-2user.svg
+    - assets/icons/document-text-outlined.svg
+    - assets/icons/clipboard-tick-outlined.svg
+    - assets/icons/navigation/inactive/home.svg
+    - assets/icons/navigation/inactive/messages.svg
+    - assets/icons/navigation/inactive/tasks.svg
+    - assets/icons/navigation/inactive/calendar.svg
+    - assets/icons/navigation/inactive/profile.svg
+    - assets/icons/navigation/active/home.svg
+    - assets/icons/navigation/active/messages.svg
+    - assets/icons/navigation/active/tasks.svg
+    - assets/icons/navigation/active/calendar.svg
+    - assets/icons/navigation/active/profile.svg
+    - assets/icons/editor/close.svg
+    - assets/icons/editor/emoji.svg
+    - assets/icons/editor/link.svg
+    - assets/icons/editor/more.svg
+    - assets/icons/editor/send.svg
+    - assets/icons/editor/task.svg
+    - assets/icons/editor/bold.svg
+    - assets/icons/editor/italic.svg
+    - assets/icons/editor/strike_through.svg
+    - assets/icons/editor/code.svg
+    - assets/icons/editor/hyperlink.svg
+    - assets/icons/editor/list.svg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,527 @@
+{
+	"common": {
+		"buttons": {
+			"next": "Next",
+			"back": "Back",
+			"done": "Done",
+			"cancel": "Cancel",
+			"delete": "Delete",
+			"save_changes": "Save changes",
+			"invite": "Invite",
+			"previous": "Previous",
+			"update": "Update",
+			"remove": "Remove",
+			"add": "Add",
+			"close": "Close",
+			"save": "Save",
+			"edit": "Edit"
+		},
+		"labels": {
+			"email_address": "E-mail address",
+			"password": "Password",
+			"deleting": "Deleting",
+			"updating": "Updating",
+			"creating": "Creating",
+			"sharing": "Sharing",
+			"inviting": "Inviting"
+		},
+		"modal": {
+			"details": "Details",
+			"invite": "Invite",
+			"assign": "Assign"
+		},
+		"text_editor": {
+			"placeholder": "Write your message here",
+			"attach_file": "Attach File",
+			"create_task": "Create Task",
+			"add_emoji": "Add emoji"
+		},
+		"toast": {
+			"success": "Success",
+			"error": "Error",
+			"warning": "Warning"
+		},
+		"roles": {
+			"workspace_owner": "Workspace Owner",
+			"admin": "Admin",
+			"user": "User",
+			"moderator": "Moderator"
+		},
+		"preview_only": "Preview only",
+		"errors": {
+			"auth_validate_1": "Oops! Looks like your session has expired! Please login back.",
+			"auth_validate_2": "Oops! You must log in to continue."
+		}
+	},
+	"timeline": {
+		"empty_timeline": "No post to show. Try posting something in a group. We will show here.",
+		"initial_message": "This is the timeline that will always include every members post in @workspace_name. Post will appear automatically in the timeline when someone post in a group"
+	},
+	"validation": {
+		"required": "@attribute is required",
+		"is_invalid": "@attribute is not valid",
+		"file": {
+			"validation_1": "Wrong file type",
+			"validation_2": "File exceeds maximum file size (10MB)",
+			"validation_3": "Files exceeds total maximum file sizes (10MB)"
+		}
+	},
+	"guest": {
+		"common": {
+			"privacy": "Privacy Policy",
+			"terms": "Terms & Conditions"
+		},
+		"login": {
+			"title_1": "Sign in to Workspace",
+			"title_2": "Enter your email address and password to sign in to existing workspace.",
+			"forgot_password": "Forgot password?",
+			"reset": "Reset",
+			"signin": "Sign in",
+			"or": "OR",
+			"dont_have_account": "Don’t have a Workspace?",
+			"signup": "Sign up",
+			"sign_with_google": "Sign in with Google"
+
+		},
+		"sign_up": {
+			"title_1": "Welcome!",
+			"title_2": "Enter you email address to create a workspace. We suggest you to enter your work email.",
+			"continue": "Continue",
+			"or": "OR",
+			"have_account": "Already have a Workspace?",
+			"signin": "Sign in",
+			"continue_with_google": "Continue with Google"
+		},
+		"otp_verify": {
+			"title_1": "Check your email for OTP",
+			"title_2": "We have sent you a 6 character code. Please enter here.",
+			"otp_error": "Invalid code. Please try again",
+			"continue": "Continue"
+		},
+		"reset_password": {
+			"title_1": "Reset password",
+			"title_2": "Enter your email address. We will send a 6 character code to your email.",
+			"send_code": "Send code"
+		},
+		"workspace_selection": {
+			"title_1": "Welcome back",
+			"title_2": "Not your workspace?",
+			"title_3": "Try using another email",
+			"title_4": "New to Kominike?",
+			"title_5": "Sign up here"
+		}
+	},
+	"workspace_onboard": {
+		"step": "Step @count of 3",
+		"step_1": {
+			"title_1": "Welcome!",
+			"title_2": "What’s the name of your company or team?",
+			"title_3": "This will be the name of your workspace - choose something similar to your company or use exact name of the company."
+		},
+		"step_2": {
+			"title_1": "Add team members into",
+			"title_2": "Add team members by email"
+		},
+		"step_3": {
+			"title_1": "Awesome!",
+			"title_2": "You have successfully created  “@workspace_name” workspace",
+			"title_3": "“General” group chat will create automatically for all members in “@workspace_name”"
+		},
+		"invitation_sent": "Invitation sent"
+	},
+	"workspace": {
+		"workspace_selection": {
+			"workspace_name": "Workspace for @workspaceName",
+			"launch": "Launch"
+		},
+		"sidebar": {
+			"menu": "Menu",
+			"timeline": "Timeline",
+			"bookmarks": "Bookmarks",
+			"notifications": "Notifications",
+			"tasks": "Tasks",
+			"calendar": "Calendar",
+			"group_chats": "Group chats",
+			"private_messages": "Private messages",
+			"more_groups": "More groups",
+			"more_users": "More users",
+			"create_new_group": "Create new group"
+		},
+		"header_user": {
+			"profile": "Profile Overview",
+			"inactive": "Set as Inactive",
+			"active": "Set as Active",
+			"pause_notifications": {
+				"label": "Pause notifications",
+				"notification_paused": "Notification paused",
+				"resume_notification": "Resume notification",
+				"for_30_minutes": "For 30 minutes",
+				"for_1_hour": "For 1 hour",
+				"until_tomorrow": "Until tomorrow",
+				"custom": {
+					"label": "Custom",
+					"title": "Pause notification",
+					"until": "Until",
+					"placeholder": "Select end date & time here"
+				}
+			},
+			"notices_from_management": "Notices from management",
+			"change_password": "Change password",
+			"help": "Help",
+			"sign_out": "Sign out"
+		},
+		"user_profile": {
+			"profile": "Profile",
+			"overview": "Overview",
+			"edit": "Edit",
+			"birth_date": "Birth date",
+			"contact_number": "Contact number",
+			"email": "Email",
+			"blood_type": "Blood type",
+			"gender": "Gender",
+			"time_zone": "Time zone",
+			"time_zone_placeholder": "Select the Timezone",
+			"edit_profile": "Edit Profile",
+			"profile_photo": "Profile photo",
+			"upload_photo": "Upload photo",
+			"remove_photo": "Remove photo",
+			"your_full_name": "Your full name",
+			"select_blood": "Select your blood type",
+			"gender_types": {
+				"male": "Male",
+				"female": "Female",
+				"other": "Other"
+			}
+		},
+		"management_notice": {
+			"title_1": "Notices from management",
+			"title_2": "new notices",
+			"delete": "Delete",
+			"notice": "Notice",
+			"view_notice": "View notice",
+			"delete_notice": "Delete notice",
+			"delete_confirmation": "Are you sure you want to delete this notice?"
+		},
+		"change_password": {
+			"title_1": "Change password",
+			"update_password": "Update password",
+			"current_password": {
+				"label": "Enter current password",
+				"placeholder": "Current password here",
+				"validation": "Current password"
+			},
+			"new_password": {
+				"label": "Enter new password",
+				"placeholder": "New password here",
+				"validation": "New password"
+			},
+			"retype_password": {
+				"label": "Re-type new password",
+				"placeholder": "Re-type new password here",
+				"validation": "Re-type new password"
+			}
+		},
+		"settings": {
+			"title": "Settings",
+			"workspace_name": "Workspace name",
+			"invite": {
+				"title": "Invite members to “@workspace_name”",
+				"invited": "Invited",
+				"remove_all": "Remove all",
+				"invited_members": "Invite members",
+				"empty_state": "There are no invited members to show. Invite some members, they'll be shown here."
+			},
+			"create_new_Workspace": "Create new Workspace",
+			"current_plan": "Current plan",
+			"current_plan_desc": "You are in a plan A which is limited to 50 users. Upgrade plan to invite more members.",
+			"see_more_plans": "See more plans",
+			"invite_peoples": "Invite people to @workspace_name.",
+			"workspace_settings": "Workspace settings",
+			"about_workspace": "About workspace",
+			"sign_out": "Sign out",
+			"workspace_preferences": "Workspace preferences",
+			"manage_roles": {
+				"title": "Manage roles",
+				"search_members": "Search members",
+				"add_member": "Add member",
+				"batch_download": "Batch download",
+				"role_placeholder": "Select a user role",
+				"table": {
+					"title": "members",
+					"name": "Name",
+					"joined_date": "Joined date",
+					"assigned_role": "Assigned role",
+					"login_lock": "Login lock"
+				}
+			},
+			"department_mangement": {
+				"title": "Department Management",
+				"add_new_department": "Add new department",
+				"edit_department": "Edit department",
+				"add_note": "Add note",
+				"delete_department": "Delete Department",
+				"delete_confirmation": "Are you sure you want to delete this department?",
+				"department_name": "Department name",
+				"notes": "Note(s)",
+				"empty_notes": "No notes to display",
+				"table": {
+					"title": "departments",
+					"department_name": "Department name",
+					"members": "Members",
+					"note": "Note",
+					"action": "Action"
+				}
+			},
+			"notifications": {
+				"title": "Notifications"
+			}
+		},
+		"about": {
+			"title": "About workspace",
+			"name": "Name",
+			"created": "Created",
+			"current_plan": "Current plan",
+			"members": "Members",
+			"capacity": "Capacity"
+		}
+	},
+	"pages": {
+		"bookmarks": {
+			"title_1": "You have @count bookmarks",
+			"title_2": "Bookmark",
+			"title_3": "Delete bookmark",
+			"view_bookmark": "View bookmark",
+			"delete_bookmark": "Delete",
+			"delete_confirmation": "Are you sure you want to delete this bookmark?",
+			"empty_state": "No bookmarks to show. Add some bookmarks. We will show here."
+		},
+		"event_calendar": {
+			"controls": {
+				"today": "Today",
+				"back": "Back",
+				"next": "Next",
+				"month": "Month",
+				"week": "Week",
+				"day": "Day",
+				"agenda": "Agenda"
+			},
+			"create_event": {
+				"add_event": "Add event",
+				"more_options": "More options",
+				"hide_options": "Hide options",
+				"save_event": "Save event",
+				"invite_members": "Invite members",
+				"event_date_time": "Set event Date & Time",
+				"title": {
+					"label": "Title",
+					"placeholder": "Add title here"
+				},
+				"start_date": "Start date & time",
+				"end_date": "End date & time",
+				"description": {
+					"label": "Description",
+					"placeholder": "Write here"
+				},
+				"event_repeat": {
+					"label": "Event repeat",
+					"options": {
+						"option_1": "Don’t repeat",
+						"option_2": "Daily",
+						"option_3": "Weekly",
+						"option_4": "Monthly",
+						"option_5": "Yearly"
+					}
+				},
+				"event_remind": {
+					"label": "Remind me before",
+					"options": {
+						"option_1": "Don’t",
+						"option_2": "5 min",
+						"option_3": "15 min",
+						"option_4": "30 min",
+						"option_5": "1 hr",
+						"option_6": "2 hr",
+						"option_7": "1 day"
+					}
+				}
+			},
+			"view_event": {
+				"title": "Events details",
+				"from": "From",
+				"to": "To",
+				"repeat": "Repeat",
+				"remind_before": "Remind before",
+				"invite_sent_to": "Invite sent to",
+				"edit_event": "Edit event",
+				"delete_event": "Delete event"
+			}
+		},
+		"task_board": {
+			"to_do": "TO DO",
+			"ongoing": "ONGOING",
+			"completed": "COMPLETED",
+			"create_task": "Create Task",
+			"delete_task": "Delete task",
+			"delete_confirmation": "Are you sure you want to delete this task?",
+			"create_a_task": "Create a Task",
+			"details": "Details",
+			"assign": "Assign",
+			"task_view": "Task view",
+			"created_on": "Created on",
+			"copy_link": "Copy link",
+			"duplicate": "Duplicate",
+			"delete": "Delete",
+			"status": {
+				"label": "Status",
+				"pending": "Pending",
+				"ongoing": "Ongoing",
+				"completed": "Completed"
+			},
+			"description": {
+				"label": "Description",
+				"placeholder": "Write your task here"
+			},
+			"due_date": {
+				"label": "Due date",
+				"placeholder": "Set due date"
+			},
+			"visibility": {
+				"label": "Visibility",
+				"placeholder": "Set visibility",
+				"options": {
+					"private": "Private",
+					"public": "Public"
+				}
+			},
+			"priority": {
+				"label": "Priority",
+				"options": {
+					"low": "Low",
+					"medium": "Medium",
+					"high": "High"
+				}
+			},
+			"attachment": {
+				"label": "Attachments",
+				"drag": "Drag any files or",
+				"browse": "Browse here",
+				"upload": "Upload files less than 10 mb",
+				"drag_file": "Drag your files here",
+				"no_attachments": "No attachments"
+			}
+		}
+	},
+	"group": {
+		"create_group": "Create a group",
+		"create": "Create group",
+		"title": "It’s the place which keeps you in touch with your workspace members. You can discuss things related to your projects.",
+		"group_name": {
+			"title": "Group name",
+			"placeholder": "Eg: brand-design"
+		},
+		"description": {
+			"title": "Description",
+			"placeholder": "Write your group description here"
+		},
+		"settings": {
+			"title": "Settings “@group_name” group",
+			"date_created": "Date created",
+			"total_posts": "Total posts",
+			"options": {
+				"option_1": "Automatically add new members to your network to ensure everyone in your company is always on board",
+				"option_2": "Allow external members to be invited",
+				"option_3": "Enable email notifications for added members"
+			},
+			"visibility": {
+				"title": "Visibility",
+				"option_1": {
+					"title_1": "Public",
+					"title_2": "Disclose to all members in the company, including members who have not participated in the group"
+				},
+				"option_2": {
+					"title_1": "Private",
+					"title_2": "Publish only to members participating in the group"
+				}
+			},
+			"posting_authority": {
+				"title": "Posting authority",
+				"option_1": "Allow all members to post",
+				"option_2": "Allow only certain members to post"
+			}
+		},
+		"members": {
+			"title": "@member_count members in “@group_name”"
+		},
+		"delete_group": {
+			"delete_group": "Delete group",
+			"title": "Are you sure you want to delete “@group_name” group?",
+			"success_message": "Group has been deleted successfully!"
+		},
+		"posting_restriction_title": "You don’t have posting authority on this group"
+	},
+	"post": {
+		"add_to_bookmark": "Add to bookmark",
+		"copy_as_link": "Copy as link",
+		"delete_post": "Delete post",
+		"delete_confirmation": "Are you sure you want to delete this post?",
+		"edit_post": "Edit post",
+		"view_replies": "View @reply_count replies",
+		"share": "Share",
+		"replies": "replies",
+		"hide": "Hide",
+		"show": "Show",
+		"share_post": "Share this post",
+		"search_for_group_or_member": "Search for group or member",
+		"is_typing": "is Typing",
+		"editor": {
+			"validation_msg_1": "The entered text contains more than 500 characters",
+			"validation_msg_2": "Pasted text contains more than 500 characters"
+		}
+	},
+	"private_chat": {
+		"view_profile": "View profile"
+	},
+	"sockets": {
+		"message_delete": "Message successfully deleted"
+	},
+	"pricing_plan": {
+		"options": {
+			"workspaceLimit": "@value Workspaces",
+			"postHistory": "@value months post history",
+			"memberLimitPerWorkspace": "@value users per workspace",
+			"taskLimitPerWorkspace": "@value tasks per workspace"
+		},
+		"title": "Pricing plan",
+		"sub_title": "Choose the most suitable price plan according to the scale and usage.",
+		"get_custom_plan": "Get custom plan",
+		"payment_method": "Payment method",
+		"payment_method_sub_title": "Payment will be done using selected default card",
+		"manage_cards": "Manage cards",
+		"payment_interval": "Payment Interval",
+		"payment_interval_sub_title": "Choose the payment interval with your preference",
+		"monthly_billing": "Monthly billing",
+		"annual_billing": "Annual billing",
+		"subscribe": "Subscribe",
+		"privacy_term": "By providing your card information, you allow Kominike to charge your card for future payments in accordance with their terms.",
+		"powered_by": "Powered by",
+		"card": {
+			"expires": "Expires",
+			"default": "Default",
+			"no_card_available": "No card available",
+			"make_default": "Make Default",
+			"remove": "Remove",
+			"add_card": "Add Card",
+			"saved_cards": "Saved cards",
+			"saved_cards_sub_title": "Manage your card in here",
+			"delete_card": {
+				"title": "Delete card",
+				"delete_confirmation": "Are you sure you want to delete this card?"
+			}
+		},
+		"discount": "Save up to @discount%",
+		"plan_summary": "Plan Summary",
+		"plan": "Plan",
+		"duration": "Duration",
+		"total": "Total"
+	}
+}

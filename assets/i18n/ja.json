@@ -1,0 +1,525 @@
+{
+	"common": {
+		"buttons": {
+			"next": "次",
+			"back": "戻る",
+			"done": "終わり",
+			"cancel": "キャンセル",
+			"delete": "消去",
+			"save_changes": "変更内容を保存",
+			"invite": "招待",
+			"previous": "前",
+			"update": "アップデート",
+			"remove": "削除する",
+			"add": "追加",
+			"close": "近い",
+			"save": "保存",
+			"edit": "編集"
+		},
+		"labels": {
+			"email_address": "電子メールアドレス",
+			"password": "パスワード",
+			"deleting": "削除中",
+			"updating": "更新中",
+			"creating": "作成",
+			"sharing": "共有",
+			"inviting": "誘う"
+		},
+		"modal": {
+			"details": "詳細",
+			"invite": "招待",
+			"assign": "割当"
+		},
+		"text_editor": {
+			"placeholder": "ここにメッセージを書いてください",
+			"attach_file": "ファイルを添付する",
+			"create_task": "タスクの作成",
+			"add_emoji": "絵文字を追加"
+		},
+		"toast": {
+			"success": "成功",
+			"error": "エラー",
+			"warning": "警告"
+		},
+		"roles": {
+			"workspace_owner": "ワークスペースの所有者",
+			"admin": "管理者",
+			"user": "ユーザー",
+			"moderator": "モデレータ"
+		},
+		"preview_only": "プレビューのみ",
+		"errors": {
+			"auth_validate_1": "おっとっと！ セッションの有効期限が切れたようです。 再度ログインしてください。",
+			"auth_validate_2": "おっとっと！ 続けるためにはログインが必要です。"
+		}
+	},
+	"timeline": {
+		"empty_timeline": "表示する投稿がありません。 グループに投稿してみてください。 ここに表示します。",
+		"initial_message": "これは、@workspace_name のすべてのメンバーの投稿が常に含まれるタイムラインです。 誰かがグループに投稿すると、タイムラインに投稿が自動的に表示されます"
+	},
+	"validation": {
+		"required": "@attribute 必要とされている",
+		"is_invalid": "@attribute 有効じゃない",
+		"file": {
+			"validation_1": "ファイルの種類が間違っています",
+			"validation_2": "ファイルが最大ファイル サイズ (10MB) を超えています",
+			"validation_3": "ファイルが合計最大ファイル サイズ (10MB) を超えています"
+		}
+	},
+	"guest": {
+		"common": {
+			"privacy": "プライバシーポリシー",
+			"terms": "利用規約"
+		},
+		"login": {
+			"title_1": "ワークスペースにサインイン",
+			"title_2": "電子メール アドレスとパスワードを入力して、既存のワークスペースにサインインします。",
+			"forgot_password": "パスワードをお忘れですか？",
+			"reset": "リセット",
+			"signin": "ログイン",
+			"or": "また",
+			"dont_have_account": "ワークスペースがありませんか?",
+			"signup": "サインアップ"
+		},
+		"sign_up": {
+			"title_1": "いらっしゃいませ！",
+			"title_2": "メールアドレスを入力してワークスペースを作成してください。 仕事用のメールアドレスを入力することをお勧めします。",
+			"continue": "継続する",
+			"or": "また",
+			"have_account": "すでにワークスペースをお持ちですか? ログイン",
+			"signin": "ログイン",
+			"continue_with_google": "Google で続行"
+		},
+		"otp_verify": {
+			"title_1": "メールで OTP を確認する",
+			"title_2": "6桁のコードを送信しました。 ここに入力してください。",
+			"otp_error": "無効なコード。 もう一度お試しください",
+			"continue": "継続する"
+		},
+		"reset_password": {
+			"title_1": "パスワードを再設定する",
+			"title_2": "メールアドレスを入力してください。 メールに6文字のコードをお送りします。",
+			"send_code": "コードを送信"
+		},
+		"workspace_selection": {
+			"title_1": "お帰りなさい",
+			"title_2": "あなたのワークスペースではありませんか？",
+			"title_3": "別のメールを使用してみてください",
+			"title_4": "コミニケは初めてですか？",
+			"title_5": "サインアップはこちら"
+		}
+	},
+	"workspace_onboard": {
+		"step": "ステップ @count/3",
+		"step_1": {
+			"title_1": "いらっしゃいませ！",
+			"title_2": "あなたの会社またはチームの名前は何ですか?",
+			"title_3": "これがワークスペースの名前になります。会社に似た名前を選択するか、会社の正確な名前を使用してください。"
+		},
+		"step_2": {
+			"title_1": "チームメンバーをに追加",
+			"title_2": "メールでチーム メンバーを追加する"
+		},
+		"step_3": {
+			"title_1": "素晴らしい！",
+			"title_2": "「@workspace_name」ワークスペースが正常に作成されました",
+			"title_3": "「@workspace_name」のすべてのメンバーに対して「一般」グループ チャットが自動的に作成されます"
+		},
+		"invitation_sent": "招待状が送られました"
+	},
+	"workspace": {
+		"workspace_selection": {
+			"workspace_name": "@workspaceName のワークスペース",
+			"launch": "発売"
+		},
+		"sidebar": {
+			"menu": "メニュー",
+			"timeline": "タイムライン",
+			"bookmarks": "ブックマーク",
+			"notifications": "通知",
+			"tasks": "タスク",
+			"calendar": "カレンダー",
+			"group_chats": "グループチャット",
+			"private_messages": "プライベートメッセージ",
+			"more_groups": "その他のグループ",
+			"more_users": "より多くのユーザー",
+			"create_new_group": "新しいグループを作成"
+		},
+		"header_user": {
+			"profile": "プロフィール概要",
+			"inactive": "非アクティブに設定",
+			"active": "アクティブに設定",
+			"pause_notifications": {
+				"label": "通知を一時停止",
+				"notification_paused": "通知を一時停止しました",
+				"resume_notification": "再開通知",
+				"for_30_minutes": "30分間",
+				"for_1_hour": "1時間",
+				"until_tomorrow": "明日まで",
+				"custom": {
+					"label": "カスタム",
+					"title": "通知を一時停止",
+					"until": "それまで",
+					"placeholder": "ここで終了日と時間を選択してください"
+				}
+			},
+			"notices_from_management": "運営からのお知らせ",
+			"change_password": "パスワードを変更する",
+			"help": "ヘルプ",
+			"sign_out": "サインアウト"
+		},
+		"user_profile": {
+			"profile": "プロフィール",
+			"overview": "概要",
+			"edit": "編集",
+			"birth_date": "生年月日",
+			"contact_number": "連絡先番号",
+			"email": "Eメール",
+			"blood_type": "血液型",
+			"gender": "性別",
+			"time_zone": "タイムゾーン",
+			"time_zone_placeholder": "タイムゾーンを選択",
+			"edit_profile": "プロファイル編集",
+			"profile_photo": "プロフィール写真",
+			"upload_photo": "写真をアップする",
+			"remove_photo": "写真を削除",
+			"your_full_name": "あなたのフルネーム",
+			"select_blood": "血液型を選択してください",
+			"gender_types": {
+				"male": "男",
+				"female": "女性",
+				"other": "他の"
+			}
+		},
+		"management_notice": {
+			"title_1": "運営からのお知らせ",
+			"title_2": "新しい通知",
+			"delete": "消去",
+			"notice": "知らせ",
+			"view_notice": "お知らせを見る",
+			"delete_notice": "通知を削除",
+			"delete_confirmation": "この通知を削除してもよろしいですか?"
+		},
+		"change_password": {
+			"title_1": "パスワードを変更する",
+			"update_password": "パスワードの更新",
+			"current_password": {
+				"label": "現在のパスワードを入力してください",
+				"placeholder": "現在のパスワードはこちら",
+				"validation": "現在のパスワード"
+			},
+			"new_password": {
+				"label": "新しいパスワードを入力してください",
+				"placeholder": "新しいパスワードはこちら",
+				"validation": "新しいパスワード"
+			},
+			"retype_password": {
+				"label": "新しいパスワード再入力",
+				"placeholder": "ここに新しいパスワードを再入力してください",
+				"validation": "新しいパスワード再入力"
+			}
+		},
+		"settings": {
+			"title": "設定",
+			"workspace_name": "ワークスペース名",
+			"invite": {
+				"title": "“@workspace_name” にメンバーを招待",
+				"invited": "招待された",
+				"remove_all": "すべてクリア",
+				"invited_members": "メンバーを招待",
+				"empty_state": "表示する招待メンバーはいません。 メンバーを招待すると、ここに表示されます。"
+			},
+			"create_new_Workspace": "新しいワークスペースを作成",
+			"current_plan": "現在の計画",
+			"current_plan_desc": "あなたは50ユーザー限定のプランAを利用しています。 プランをアップグレードして、より多くのメンバーを招待してください。",
+			"see_more_plans": "プランをもっと見る",
+			"invite_peoples": "人々を @workspace_name に招待してください.",
+			"workspace_settings": "ワークスペース設定",
+			"about_workspace": "ワークスペースについて",
+			"sign_out": "サインアウト",
+			"workspace_preferences": "ワークスペースの設定",
+			"manage_roles": {
+				"title": "役割を管理する",
+				"search_members": "メンバーを検索",
+				"add_member": "メンバーを追加",
+				"batch_download": "一括ダウンロード",
+				"role_placeholder": "ユーザーの役割を選択する",
+				"table": {
+					"title": "メンバー",
+					"name": "名前",
+					"joined_date": "入社日",
+					"assigned_role": "割り当てられた役割",
+					"login_lock": "ログインロック"
+				}
+			},
+			"department_mangement": {
+				"title": "部門管理",
+				"add_new_department": "新しい部署を追加",
+				"edit_department": "部署を編集",
+				"add_note": "メモを追加",
+				"delete_department": "部署を削除",
+				"delete_confirmation": "この部門を削除してもよろしいですか?",
+				"department_name": "部署名",
+				"notes": "ノート）",
+				"empty_notes": "表示するメモはありません",
+				"table": {
+					"title": "部署",
+					"department_name": "部署名",
+					"members": "メンバー",
+					"note": "ノート",
+					"action": "アクション"
+				}
+			},
+			"notifications": {
+				"title": "通知"
+			}
+		},
+		"about": {
+			"title": "ワークスペースについて",
+			"name": "名前",
+			"created": "作成した",
+			"current_plan": "現在の計画",
+			"members": "メンバー",
+			"capacity": "容量"
+		}
+	},
+	"pages": {
+		"bookmarks": {
+			"title_1": "@count 個のブックマークがあります",
+			"title_2": "ブックマーク",
+			"title_3": "ブックマークを削除",
+			"view_bookmark": "ブックマークを表示",
+			"delete_bookmark": "消去",
+			"delete_confirmation": "このブックマークを削除してもよろしいですか?",
+			"empty_state": "表示するブックマークはありません。 ブックマークをいくつか追加します。 ここに表示します。"
+		},
+		"event_calendar": {
+			"controls": {
+				"today": "今日",
+				"back": "戻る",
+				"next": "次",
+				"month": "月",
+				"week": "週",
+				"day": "日",
+				"agenda": "議題"
+			},
+			"create_event": {
+				"add_event": "イベントを追加",
+				"more_options": "より多くのオプション",
+				"hide_options": "オプションを非表示",
+				"save_event": "イベントを保存",
+				"invite_members": "メンバーを招待",
+				"event_date_time": "イベントの日時を設定する",
+				"title": {
+					"label": "題名",
+					"placeholder": "ここにタイトルを追加"
+				},
+				"start_date": "開始日時",
+				"end_date": "終了日時",
+				"description": {
+					"label": "説明",
+					"placeholder": "ここに書く"
+				},
+				"event_repeat": {
+					"label": "イベントリピート",
+					"options": {
+						"option_1": "繰り返さない",
+						"option_2": "毎日",
+						"option_3": "毎週",
+						"option_4": "毎月",
+						"option_5": "毎年"
+					}
+				},
+				"event_remind": {
+					"label": "前に通知する",
+					"options": {
+						"option_1": "しないでください",
+						"option_2": "5分",
+						"option_3": "15分",
+						"option_4": "30分",
+						"option_5": "1時間",
+						"option_6": "2時間",
+						"option_7": "1日"
+					}
+				}
+			},
+			"view_event": {
+				"title": "イベント詳細",
+				"from": "から",
+				"to": "に",
+				"repeat": "繰り返す",
+				"remind_before": "前に思い出させる",
+				"invite_sent_to": "招待状の送信先",
+				"edit_event": "イベントを編集",
+				"delete_event": "予定を削除"
+			}
+		},
+		"task_board": {
+			"to_do": "すること",
+			"ongoing": "進行中",
+			"completed": "完了しました",
+			"create_task": "タスクの作成",
+			"delete_task": "タスクを削除",
+			"delete_confirmation": "このタスクを削除してもよろしいですか?",
+			"create_a_task": "タスクを作成する",
+			"details": "詳細",
+			"assign": "割当",
+			"task_view": "タスク ビュー",
+			"created_on": "作成日",
+			"copy_link": "リンクをコピーする",
+			"duplicate": "複製",
+			"delete": "消去",
+			"status": {
+				"label": "状態",
+				"pending": "保留中",
+				"ongoing": "進行中",
+				"completed": "完了"
+			},
+			"description": {
+				"label": "説明",
+				"placeholder": "ここにタスクを書きます"
+			},
+			"due_date": {
+				"label": "期日",
+				"placeholder": "期日を設定する"
+			},
+			"visibility": {
+				"label": "視認性",
+				"placeholder": "可視性の設定",
+				"options": {
+					"private": "プライベート",
+					"public": "公衆"
+				}
+			},
+			"priority": {
+				"label": "優先順位",
+				"options": {
+					"low": "低い",
+					"medium": "中くらい",
+					"high": "高い"
+				}
+			},
+			"attachment": {
+				"label": "付属品",
+				"drag": "ファイルをドラッグするか、",
+				"browse": "ここを参照",
+				"upload": "10 MB 未満のファイルをアップロードする",
+				"drag_file": "ここにファイルをドラッグします",
+				"no_attachments": "添付ファイルなし"
+			}
+		}
+	},
+	"group": {
+		"create_group": "グループを作成する",
+		"create": "グループを作成",
+		"title": "ワークスペースのメンバーと連絡を取り合う場所です。 プロジェクトに関連することについて話し合うことができます。",
+		"group_name": {
+			"title": "グループ名",
+			"placeholder": "例: ブランドデザイン"
+		},
+		"description": {
+			"title": "説明",
+			"placeholder": "ここにグループの説明を書きます"
+		},
+		"settings": {
+			"title": "設定 @group_name グループ",
+			"date_created": "作成日",
+			"total_posts": "総投稿数",
+			"options": {
+				"option_1": "新しいメンバーをネットワークに自動的に追加して、社内の全員が常に参加できるようにします",
+				"option_2": "外部メンバーの招待を許可する",
+				"option_3": "追加されたメンバーのメール通知を有効にする"
+			},
+			"visibility": {
+				"title": "視認性",
+				"option_1": {
+					"title_1": "公衆",
+					"title_2": "グループに参加していないメンバーを含む、社内のすべてのメンバーに開示する"
+				},
+				"option_2": {
+					"title_1": "プライベート",
+					"title_2": "グループに参加しているメンバーのみに公開"
+				}
+			},
+			"posting_authority": {
+				"title": "掲載機関",
+				"option_1": "すべてのメンバーに投稿を許可する",
+				"option_2": "特定のメンバーのみ投稿を許可する"
+			}
+		},
+		"members": {
+			"title": "@group_name の @member_count メンバー"
+		},
+		"delete_group": {
+			"delete_group": "グループを削除",
+			"title": "@group_name グループを削除してもよろしいですか?",
+			"success_message": "グループが正常に削除されました!"
+		},
+		"posting_restriction_title": "このグループへの投稿権限がありません"
+	},
+	"post": {
+		"add_to_bookmark": "ブックマークに追加",
+		"copy_as_link": "リンクとしてコピー",
+		"delete_post": "投稿を削除",
+		"delete_confirmation": "この投稿を削除してもよろしいですか？",
+		"edit_post": "投稿を編集",
+		"view_replies": "@reply_count 件の返信を表示",
+		"share": "シェア",
+		"replies": "返信",
+		"hide": "隠れる",
+		"show": "公演",
+		"share_post": "この投稿を共有",
+		"search_for_group_or_member": "グループまたはメンバーを検索",
+		"is_typing": "打ち込んでいる",
+		"editor": {
+			"validation_msg_1": "入力したテキストが 500 文字を超えています",
+			"validation_msg_2": "貼り付けたテキストに 500 文字を超える文字が含まれています"
+		}
+	},
+	"private_chat": {
+		"view_profile": "プロフィールを見る"
+	},
+	"sockets": {
+		"message_delete": "メッセージは正常に削除されました"
+	},
+	"pricing_plan": {
+		"options": {
+			"workspaceLimit": "@value のワークスペース",
+			"postHistory": "@value か月の投稿履歴",
+			"memberLimitPerWorkspace": "ワークスペースあたり @value ユーザー",
+			"taskLimitPerWorkspace": "ワークスペースあたり @value 個のタスク"
+		},
+		"title": "料金プラン",
+		"sub_title": "規模や用途に合わせて最適な料金プランをお選びください。",
+		"get_custom_plan": "カスタムプランを取得",
+		"payment_method": "支払方法",
+		"payment_method_sub_title": "選択したデフォルトのカードを使用して支払いが行われます",
+		"manage_cards": "カードの管理",
+		"payment_interval": "支払間隔",
+		"payment_interval_sub_title": "お好みに合わせてお支払い間隔をお選びください",
+		"monthly_billing": "月次請求",
+		"annual_billing": "年次請求",
+		"subscribe": "申し込む",
+		"privacy_term": "カード情報を提供することにより、Kominike が条件に従って将来の支払いをカードに請求することを許可します。",
+		"powered_by": "搭載",
+		"card": {
+			"expires": "期限切れ",
+			"default": "デフォルト",
+			"no_card_available": "カードがありません",
+			"make_default": "デフォルトにする",
+			"remove": "削除する",
+			"add_card": "カードを追加",
+			"saved_cards": "保存したカード",
+			"saved_cards_sub_title": "カードの管理はこちら",
+			"delete_card": {
+				"title": "カードを削除",
+				"delete_confirmation": "このカードを削除してもよろしいですか？"
+			}
+		},
+		"discount": "(最大 @discount% 節約)",
+		"plan_summary": "計画の概要",
+		"plan": "プラン",
+		"duration": "間隔",
+		"total": "合計"
+	}
+}
