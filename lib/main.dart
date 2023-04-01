@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_quill/flutter_quill.dart';
 import 'package:quill_json_to_html/json_to_html.dart';
 import 'package:quill_markdown/quill_markdown.dart';
-import 'package:tuple/tuple.dart';
 import 'colors.dart';
 import 'package:flutter_quill/src/models/documents/document.dart' as d;
 import 'package:html2md/html2md.dart' as html2md;
@@ -136,8 +135,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 1.15,
                           fontWeight: FontWeight.w300,
                         ),
-                        const Tuple2(8, 0),
-                        const Tuple2(0, 0),
+                        const VerticalSpacing(8, 0),
+                        const VerticalSpacing(0, 0),
                         null
                     ),
                     paragraph: DefaultTextBlockStyle(
@@ -147,8 +146,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 1.15,
                           fontWeight: FontWeight.w300,
                         ),
-                        const Tuple2(16, 0),
-                        const Tuple2(0, 0),
+                        const VerticalSpacing(16, 0),
+                        const VerticalSpacing(0, 0),
                         null
                     ),
                     // paragraph: DefaultTextBlockStyle(),
